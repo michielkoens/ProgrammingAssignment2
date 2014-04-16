@@ -54,7 +54,7 @@ makeCacheMatrix <- function(cached_matrix = matrix()) {
 }
 
 
-## makeCacheMatrix takes a cached matrix as created by makeCacheMatrix and
+## cacheSolve takes a cached matrix as created by makeCacheMatrix and
 ## returns its inverse. 
 ##
 ## The function will return the cached inverse if it has been calculated 
