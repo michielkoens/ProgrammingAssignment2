@@ -2,6 +2,7 @@
 ## that can cache its inverse. The function cacheSolve will return the 
 ## cached inverse from the cache if it has been calculated already, and 
 ## indicate that with a 'getting cached data' message.
+## The implementation follows the vector mean example given by the instructors.
 
 ## Example usage:
 
@@ -29,8 +30,7 @@
 ## - getinverse: returns the cached inverse
 ##
 ## The matrix and its inverse are stored using <<- in the same environment as 
-## those 4 functions, so are not visible directly to the user in the global 
-## environment. However, they can be read in the proper environment as follows: 
+## those 4 functions, and can be read in the proper environment as follows: 
 ## > get("cached_inverse", environment(cm$set))
 ##
 ## The cached inverse is initially set to NULL to indicate it hasn't been 
